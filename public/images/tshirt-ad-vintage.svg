@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Vintage T-Shirt Ad</title>
+  <desc id="desc">Retro washed t-shirt product advertisement</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5efe6"/>
+      <stop offset="100%" stop-color="#e8dcc8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1060" height="660" rx="38" fill="#fffaf2" stroke="#d6c5aa" stroke-width="4"/>
+  <text x="120" y="170" fill="#3f3a33" font-family="Arial, sans-serif" font-size="44" font-weight="700">VINTAGE WASH TEE</text>
+  <text x="120" y="220" fill="#57534e" font-family="Arial, sans-serif" font-size="28">Retro Tone • Soft Hand Feel • Relaxed Cut</text>
+  <path d="M600 230l95 56 84-47 86 122-66 49v248H401V410l-66-49 86-122 84 47z" fill="#fef3c7" stroke="#44403c" stroke-width="12"/>
+  <rect x="480" y="430" width="240" height="140" rx="14" fill="#78716c" opacity="0.22"/>
+  <text x="600" y="510" text-anchor="middle" fill="#44403c" font-family="Arial, sans-serif" font-size="42" font-weight="700">1979</text>
+  <rect x="120" y="620" width="300" height="70" rx="35" fill="#3f3a33"/>
+  <text x="270" y="665" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">ORDER NOW</text>
+</svg>
