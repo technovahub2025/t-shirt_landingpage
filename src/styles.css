@@ -132,9 +132,8 @@ header[id] {
 }
 
 .brand-logo {
-  width: 62px;
-  height: 62px;
-  border: 2px dashed #10182040;
+  width: 88px;
+  height: 75px;
   border-radius: 14px;
   background: #ffffff;
   object-fit: cover;
@@ -673,8 +672,8 @@ header[id] {
   }
 
   .fixed-nav .brand-logo {
-    width: 46px;
-    height: 46px;
+    width: 70px;
+    height: 70px;
     font-size: 1.25rem;
   }
 
@@ -693,8 +692,8 @@ header[id] {
   }
 
   .brand-logo {
-    width: 54px;
-    height: 54px;
+    width: 64px;
+    height: 64px;
   }
 
   .brand-name {

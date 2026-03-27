@@ -15,9 +15,11 @@ const FixedNav = () => {
       <div className="container">
         <nav className="top-nav fixed-nav d-flex justify-content-between align-items-center gap-3">
           <a href="#top" className="brand-anchor d-flex align-items-center gap-2 text-decoration-none">
-            <span className="brand-logo brand-logo-badge" aria-hidden="true">
-              TV
-            </span>
+            <img
+              className="brand-logo"
+              src="/images/tv%20logo.png"
+              alt="ThreadVault logo"
+            />
             <strong className="brand-compact-name">THREADVAULT</strong>
           </a>
           <ul className="nav-links mb-0">
