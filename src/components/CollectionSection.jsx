@@ -1,18 +1,20 @@
+const imageBase = `${import.meta.env.BASE_URL}images/`;
+
 const collections = [
   {
     title: "Graphic Oversize",
     text: "Heavyweight cotton with fade-safe prints.",
-    image: "/images/tshirt-real-2.png"
+    image: `${imageBase}tshirt-real-2.png`
   },
   {
     title: "Core Essentials",
     text: "Clean staples in neutral palettes.",
-    image: "/images/tshirt-real-1.png"
+    image: `${imageBase}tshirt-real-1.png`
   },
   {
     title: "Artist Capsules",
     text: "Collab releases in limited quantities.",
-    image: "/images/tshirt-real-4.png"
+    image: `${imageBase}tshirt-real-4.png`
   }
 ];
 

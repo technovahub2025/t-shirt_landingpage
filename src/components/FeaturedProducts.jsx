@@ -1,27 +1,29 @@
+const imageBase = `${import.meta.env.BASE_URL}images/`;
+
 const products = [
   {
     name: "Neon Alley Tee",
     price: "Rs. 899",
     tag: "Best Seller",
-    image: "/images/tshirt-real-1.png"
+    image: `${imageBase}tshirt-real-1.png`
   },
   {
     name: "Static Noise Tee",
     price: "Rs. 1,099",
     tag: "New Drop",
-    image: "/images/tshirt-real-2.png"
+    image: `${imageBase}tshirt-real-2.png`
   },
   {
     name: "Mono Drift Tee",
     price: "Rs. 799",
     tag: "Essential",
-    image: "/images/tshirt-real-3.png"
+    image: `${imageBase}tshirt-real-3.png`
   },
   {
     name: "City Pulse Tee",
     price: "Rs. 999",
     tag: "Limited",
-    image: "/images/tshirt-real-4.png"
+    image: `${imageBase}tshirt-real-4.png`
   }
 ];
 

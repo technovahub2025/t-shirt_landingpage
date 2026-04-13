@@ -1,21 +1,23 @@
+const imageBase = `${import.meta.env.BASE_URL}images/`;
+
 const categories = [
   {
     name: "Minimal Core",
     description: "Clean shapes, balanced colors, ready for everyday fits.",
     marker: "MC",
-    image: "/images/tshirt-real-1.png"
+    image: `${imageBase}tshirt-real-1.png`
   },
   {
     name: "Graphic Heat",
     description: "Bold visual prints inspired by street art and music culture.",
     marker: "GH",
-    image: "/images/tshirt-real-2.png"
+    image: `${imageBase}tshirt-real-2.png`
   },
   {
     name: "Vintage Fade",
     description: "Washed textures and retro tones for classic styling.",
     marker: "VF",
-    image: "/images/tshirt-real-3.png"
+    image: `${imageBase}tshirt-real-3.png`
   }
 ];
 

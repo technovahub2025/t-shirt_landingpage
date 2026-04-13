@@ -1,19 +1,21 @@
+const imageBase = `${import.meta.env.BASE_URL}images/`;
+
 const looks = [
   {
     title: "Graphic Street Fit",
-    image: "/images/tshirt-real-1.png"
+    image: `${imageBase}tshirt-real-1.png`
   },
   {
     title: "Mono Everyday Tee",
-    image: "/images/tshirt-real-2.png"
+    image: `${imageBase}tshirt-real-2.png`
   },
   {
     title: "Oversized Drop",
-    image: "/images/tshirt-real-3.png"
+    image: `${imageBase}tshirt-real-3.png`
   },
   {
     title: "Urban Print Capsule",
-    image: "/images/tshirt-real-4.png"
+    image: `${imageBase}tshirt-real-4.png`
   }
 ];
 

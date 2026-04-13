@@ -1,4 +1,6 @@
 const HeroSection = () => {
+  const heroImage = `${import.meta.env.BASE_URL}images/tshirt-real-4.png`;
+
   return (
     <header id="top" className="hero-section">
       <div className="container py-4 py-md-5">
@@ -25,7 +27,7 @@ const HeroSection = () => {
             <div className="hero-visual-wrap">
               <img
                 className="hero-main-panel"
-                src="/images/tshirt-real-4.png"
+                src={heroImage}
                 alt="T-shirt product advertisement"
               />
               <div className="hero-card p-4">

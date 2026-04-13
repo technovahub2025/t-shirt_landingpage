@@ -1,3 +1,5 @@
+const logoSrc = `${import.meta.env.BASE_URL}images/tv%20logo.png`;
+
 const navItems = [
   { label: "Collection", href: "#collection" },
   { label: "Styles", href: "#styles" },
@@ -17,7 +19,7 @@ const FixedNav = () => {
           <a href="#top" className="brand-anchor d-flex align-items-center gap-2 text-decoration-none">
             <img
               className="brand-logo"
-              src="/images/tv%20logo.png"
+              src={logoSrc}
               alt="ThreadVault logo"
             />
             <strong className="brand-compact-name">THREADVAULT</strong>
